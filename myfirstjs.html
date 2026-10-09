@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>      
+    <title>JSdemo</title>
+</head>
+<body>
+    <input type="number"id="num1" value="5">
+    <input type="number"id="num2" value="4">
+    <button onclick="add()">Add</button>
+    <!-- <p id="message">Bibble</p> -->
+    <script>
+        function add() {
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+            var sum = parseInt(num1) + parseInt(num2);
+            alert("The sum is: " + sum);            
+        }
+        //alert("Hello World");
+        //document.write("<h1>Hello World</h1>");
+        //thingtochange = document.getElementById("message");
+        //thingtochange.innerHTML = "Hello World";
+    </script>
+</body>
+</html>
